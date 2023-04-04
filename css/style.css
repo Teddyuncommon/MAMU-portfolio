@@ -194,12 +194,13 @@ span{
 
 /* ABOUT ME STARTS */
  #about {
-    background:black;
-    color: white;
+   background:black;
+   color: white;
    display: flex;
    flex-direction: row;
-  align-items: center;
-    height: 100vh;
+   align-items: center;
+   height: 100vh;
+   overflow-x: hidden;
  }
  .txt-pic{
     height: 85px;
@@ -245,16 +246,19 @@ span{
   border: 2px solid #41C9D8;
   color: #fff;
 }
+
+
+/* SKILLS CSS STARTS */
+
 #skills1{
   background: black;
   height: 60vh;
-  
 }
 .skills{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  height: 85px;
 }
 .tic{
   margin-top: 3%;
@@ -308,10 +312,14 @@ color: white;
   margin-bottom: 0px;
   font-size: 25px;
 }
+
+/* TOOL KIT CSS STARTS */
+
 .tool-kit{
   margin: 200px 0px 100px;
   text-align: center;
   width: 100%;
+  overflow-x: hidden;
 }
 .tool-kit img{
   height: 140px;
@@ -325,6 +333,7 @@ color: white;
   width: 250px;
   margin:20px 0px;
   background-color: #1A1D22;
+  border-radius: 05px;
 }
 .xd{
   background-color: #1A1D22;
@@ -333,6 +342,11 @@ color: white;
   height: 250px;
   width: 250px;
   margin:20px 0px;
+  border-radius: 10px;
+}
+.xd img{
+  top: 39px;
+  position: relative;
 }
 .fig{
   background-color: #1A1D22;
@@ -341,6 +355,11 @@ color: white;
   height: 250px;
   width: 250px;
   margin:20px 0px;
+  border-radius: 10px;
+}
+.fig img{
+  top: 40px;
+  position: relative;
 }
 .vs{
   background-color: #1A1D22;
@@ -349,10 +368,14 @@ color: white;
   height: 250px;
   width: 250px;
   margin:20px 0px;
+  border-radius: 10px;
+  align-items: center;
 }
 .vs img{
   padding: 15px;
-  align-items: center;
+  top: 35px;
+  position: relative;
+
 }
 .tool-img{
   display: flex;
@@ -364,13 +387,15 @@ color: white;
 }
 #tool{
   height: 85px;
-  margin-top: 120px;
+  margin-top: 210px;
 }
 
+/* PROJECTS CSS STARTS */
+
 #phones{
-  height: 450px;
+  height: 400px;
   display: flex;
- margin-right: 120px;
+ margin-left: 70px;
 }
 #pro{
  background-color: #41C9D8;
@@ -382,10 +407,22 @@ color: white;
   width: 30%;
   color: white;
   overflow-x: hidden;
-  margin-right: 190px;
   font-family: raleway;
   font-size: 20px;
   font-weight: 100;
+}
+#pro-txt1{
+  width: 40%;
+  color: white;
+  overflow-x: hidden;
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+#pro-txt{
+  margin-left: 100px;
 }
 #pro-txt h2 {
   font-family: raleway;
@@ -402,15 +439,17 @@ margin-top: 10px;
 }
 #unicare{
   height: 500px;
-  
- margin-left: 190px;
+  margin-left: 20%;
 }
 .ty{
   display: flex;
   margin-top: 70px;
+  margin-left: 70px;
+  gap: 50px;
 }
 .TY{
   height: 80%;
+  
 }
 #projects{
   height: 85px;
@@ -418,6 +457,7 @@ margin-top: 10px;
 }
 .projects{
   height: 80vh;
+  overflow-x: hidden;
 }
 .v-p{
   color:white;
@@ -444,18 +484,18 @@ margin-top: 10px;
 }
 
 
-
-
-/* PROJECTS */
 .projects{
   height: auto;
 }
+
+/* FOOTER CSS STARTS */
 
 .info{
   position: relative;
   font-family: raleway;
   color: white;
-  height: auto;
+  height: 30vh;
+  overflow-x: hidden;
 }
 .info-text{
   display: flex;
@@ -487,8 +527,53 @@ margin-top: 10px;
   border: 2px solid #41C9D8;
   color: #fff;
 }
+.copyright{
+  position: relative;
+  left: 90px;
+  margin: 20px 50px;
+}
+.logoContainer{
+  width: 250px;
+  margin-left: 50px;
+}
+footer{
+  height: 20vh;
+  color: white;
+  font-family: raleway;
+}
 
-
+.social{
+  position: relative;
+  top: 69px;
+  margin-left: 90px;
+}
+.social1{
+  position: relative;
+  top: 72px;
+  margin-left: 90px;
+}
+.social2{
+  position: relative;
+  top: 30px;
+  margin-left: 90px;
+}
+.p{
+  position: relative;
+  top:38px;
+  color:white;
+  left: 60px;
+  margin-left: 90px;
+}
+.p1{
+  position: relative;
+  bottom:5px;
+  color:white;
+  left: 60px;
+  margin-left: 90px;
+}
+.cnt{
+  margin-left: 90px;
+}
 
 
 
