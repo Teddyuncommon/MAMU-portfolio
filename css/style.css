@@ -132,8 +132,8 @@ span{
     position: absolute;
   }
   #navbar{
-    background-color: #120e0e70;
-    top: 5px;
+    background-color: #000000;
+    top: 2px;
     width: 91%;
     height: 80px;
     position: fixed;
@@ -527,6 +527,11 @@ footer{
 }
 
 .social{
+  position: relative;
+  top: 69px;
+  margin-left: 90px;
+}
+.social3{
   position: relative;
   top: 69px;
   margin-left: 90px;
